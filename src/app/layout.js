@@ -1,0 +1,35 @@
+import { DM_Sans, Syne, Playfair_Display } from "next/font/google";
+import "./globals.css";
+
+// Configure Next.js optimized fonts
+const dmSans = DM_Sans({ 
+  subsets: ["latin"], 
+  variable: '--font-dm-sans' 
+});
+
+const syne = Syne({ 
+  subsets: ["latin"], 
+  weight: ["700", "800"], 
+  variable: '--font-syne' 
+});
+
+const playfair = Playfair_Display({ 
+  subsets: ["latin"], 
+  weight: ["700", "800"], 
+  variable: '--font-playfair' 
+});
+
+export const metadata = {
+  title: "Salt & Light Media — We Make Brands Impossible to Ignore",
+  description: "Digital marketing agency in Kolkata helping local businesses build a powerful online presence.",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={`${dmSans.className} ${syne.variable} ${playfair.variable}`}>
+        {children}
+      </body>
+    </html>
+  );
+}
