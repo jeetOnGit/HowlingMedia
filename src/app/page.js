@@ -55,7 +55,7 @@ export default function Home() {
           <li><a href="#pricing">Pricing</a></li>
         </ul>
 
-        <a href="#contact" className="nav-cta">Let's Talk</a>
+        <a href="https://wa.me/919330505788" target="_blank" className="nav-cta">Let's Talk</a>
 
         <button 
           className={`ham ${isMobileOpen ? "open" : ""}`} 
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="kicker">
             <div className="kicker-dot"></div> Digital Marketing Agency
           </div>
-          <h1 className="playfair-font">You do business, We build <em>presence</em></h1>
+          <h1 className="playfair-font">You do business,<br /> We build <em>presence</em>.</h1>
           <p className="hero-sub">
             Salt & Lights Media helps local businesses build a powerful online presence through data-driven SEO, strategic social media, and elite branding.
           </p>
@@ -92,7 +92,7 @@ export default function Home() {
             <a href="#contact" className="btn-outline">Book Consultation</a>
           </div>
 
-          <div className="hero-stats">
+          {/* <div className="hero-stats">
             <div className="stat">
               <div className="stat-n playfair-font">50<span>+</span></div>
               <div className="stat-l">Brands Scaled</div>
@@ -105,7 +105,7 @@ export default function Home() {
               <div className="stat-n playfair-font">98<span>%</span></div>
               <div className="stat-l">Retention</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -193,11 +193,11 @@ export default function Home() {
         <div className="pkg-grid">
           {/* Basic Package */}
           <div className="pkg reveal">
-            <div className="pkg-tier">Ignite</div>
-            <h3 className="pkg-name playfair-font">Starter</h3>
+            <div className="pkg-tier">Starter</div>
+            <h3 className="pkg-name playfair-font">Ignite</h3>
             <div className="pkg-price">
-              <span className="pkg-cur">$</span>
-              <span className="pkg-amt playfair-font">899</span>
+              <span className="pkg-cur">₹</span>
+              <span className="pkg-amt playfair-font">8,999</span>
               <span className="pkg-per">/mo</span>
             </div>
             <p className="pkg-tagline">Essential visibility for local businesses.</p>
@@ -218,8 +218,8 @@ export default function Home() {
             <div className="pkg-tier">Accelerate</div>
             <h3 className="pkg-name playfair-font">Growth</h3>
             <div className="pkg-price">
-              <span className="pkg-cur">$</span>
-              <span className="pkg-amt playfair-font">1,499</span>
+              <span className="pkg-cur">₹</span>
+              <span className="pkg-amt playfair-font">14,999</span>
               <span className="pkg-per">/mo</span>
             </div>
             <p className="pkg-tagline">Aggressive scaling for established brands.</p>
@@ -263,7 +263,7 @@ export default function Home() {
           <h2 className="playfair-font">Let's Make Your Brand <em>Shine</em></h2>
           <p className="cta-sub">Drop us a message and we'll get back to you with a free, no-obligation audit of your current digital presence.</p>
           <div className="cta-btns">
-            <a href="https://wa.me/919330505788" className="btn-wa">Chat on WhatsApp</a>
+            <a href="https://wa.me/919330505788" target="_blank" className="btn-wa">Chat on WhatsApp</a>
             <a href="mailto:saltandlightsmedia@gmail.com" className="btn-mail">Send an Email</a>
           </div>
           <div className="cta-socials">

@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Salt & Light Media — We Make Brands Impossible to Ignore",
+  title: "Salt & Lights Media — You do business, We build presence",
   description: "Digital marketing agency in Kolkata helping local businesses build a powerful online presence.",
 };
 
