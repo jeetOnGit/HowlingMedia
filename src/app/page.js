@@ -55,7 +55,7 @@ export default function Home() {
           <li><a href="#pricing">Pricing</a></li>
         </ul>
 
-        <a href="https://wa.me/919330505788" target="_blank" className="nav-cta">Let's Talk</a>
+        <a href="https://wa.me/919330505788?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20packages%20" target="_blank" className="nav-cta">Let's Talk</a>
 
         <button 
           className={`ham ${isMobileOpen ? "open" : ""}`} 
@@ -71,7 +71,7 @@ export default function Home() {
         <a href="#services" onClick={() => setIsMobileOpen(false)}>Services</a>
         <a href="#pricing" onClick={() => setIsMobileOpen(false)}>Pricing</a>
         <a href="#contact" className="mob-fire" onClick={() => setIsMobileOpen(false)}>Let's Talk</a>
-        <a href="https://wa.me/YOURNUMBER" className="mob-wa" onClick={() => setIsMobileOpen(false)}>
+        <a href="https://wa.me/919330505788?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20packages%20" className="mob-wa" onClick={() => setIsMobileOpen(false)}>
           Chat on WhatsApp
         </a>
       </div>
@@ -263,7 +263,7 @@ export default function Home() {
           <h2 className="playfair-font">Let's Make Your Brand <em>Shine</em></h2>
           <p className="cta-sub">Drop us a message and we'll get back to you with a free, no-obligation audit of your current digital presence.</p>
           <div className="cta-btns">
-            <a href="https://wa.me/919330505788" target="_blank" className="btn-wa">Chat on WhatsApp</a>
+            <a href="https://wa.me/919330505788?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20packages%20" target="_blank" className="btn-wa">Chat on WhatsApp</a>
             <a href="mailto:saltandlightsmedia@gmail.com" className="btn-mail">Send an Email</a>
           </div>
           <div className="cta-socials">
