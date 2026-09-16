@@ -205,7 +205,7 @@ export default function Home() {
             <div className="pkg-div"></div>
             <ul className="pkg-features">
               <li><span className="fdot">✓</span> Local SEO Optimization</li>
-              <li><span className="fdot">✓</span> 12 Social Media Posts</li>
+              <li><span className="fdot">✓</span> 10 Social Media Posts</li>
               <li><span className="fdot">✓</span> Meta Ads Setup</li>
               <li><span className="fdot">✓</span> Monthly Reporting</li>
             </ul>
