@@ -22,12 +22,12 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "Salt & Lights Media — You do business, We build presence",
   description: "Digital marketing agency in Kolkata helping local businesses build a powerful online presence.",
+  <meta name="google-site-verification" content="Qc5blAzqIWCphieres-YiROQBtk0dz8fWEWuE6IVpoE" />
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <meta name="google-site-verification" content="Qc5blAzqIWCphieres-YiROQBtk0dz8fWEWuE6IVpoE" />
       <body className={`${dmSans.className} ${syne.variable} ${playfair.variable}`}>
         {children}
       </body>
