@@ -27,6 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <meta name="google-site-verification" content="Qc5blAzqIWCphieres-YiROQBtk0dz8fWEWuE6IVpoE" />
       <body className={`${dmSans.className} ${syne.variable} ${playfair.variable}`}>
         {children}
       </body>
